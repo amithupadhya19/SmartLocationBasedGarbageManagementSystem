@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1025923818530",
+    "firebase_url": "https://garbagemanagementsystem-f35bc-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "garbagemanagementsystem-f35bc",
+    "storage_bucket": "garbagemanagementsystem-f35bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025923818530:android:579dd7765fdfe5e332567b",
+        "android_client_info": {
+          "package_name": "com.example.garbagemanagementsystem_dataflair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025923818530-94380qmma43eg8cf7k2ubnhnrqts6e1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4thm3ZlvG1v3EwvtsmJ0enMbcjbPtRwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025923818530-94380qmma43eg8cf7k2ubnhnrqts6e1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

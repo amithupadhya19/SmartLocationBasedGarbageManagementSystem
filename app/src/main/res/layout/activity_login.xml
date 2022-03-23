@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_gravity="center_vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Location Based Garbage Management System"
+        android:textColor="#777"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#45f"/>
+    <EditText
+        android:id="@+id/loginEmailField"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/textinputlayouts"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:background="@drawable/textinputlayouts"
+        android:layout_marginTop="15dp"
+        app:hintTextColor="#00f"
+        app:passwordToggleEnabled="true"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp">
+        <EditText
+            android:id="@+id/loginPasswordField"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginButton"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_layout"
+        android:text="LOGIN"/>
+    <TextView
+        android:id="@+id/goToSignUpPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="new here? Signup"
+        android:textColor="#65f"
+        android:textSize="19sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
